@@ -15,15 +15,15 @@ const SignUp = () => {
                         <div className="flex flex-col items-center justify-between xl:flex-row">
                             <div className="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
                                 <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
-                                    The quick, brown fox <br className="hidden md:block" />
-                                    jumps over a{' '}
-                                    <span className="text-teal-accent-400">lazy dog</span>
+                                    Join With Us <br className="hidden md:block" />
+
+
                                 </h2>
                                 <p className="max-w-xl mb-4 text-base text-gray-400 md:text-lg">
-                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                    accusantium doloremque laudan, totam rem aperiam, eaque ipsa
-                                    quae.
+                                    We are very happy to join with us. If you want to join with us simply to join with your 'First Name' and 'Last Name' and your Email address
+
                                 </p>
+
                                 <a
                                     href="/"
                                     aria-label=""
@@ -45,7 +45,7 @@ const SignUp = () => {
                                         Sign up for updates
                                     </h3>
                                     <form>
-                                        <div className="mb-1 sm:mb-2">
+                                        <div className="mb-1 sm:mb-2 text-start">
                                             <label
                                                 htmlFor="firstName"
                                                 className="inline-block mb-1 font-medium"
@@ -61,7 +61,7 @@ const SignUp = () => {
                                                 name="firstName"
                                             />
                                         </div>
-                                        <div className="mb-1 sm:mb-2">
+                                        <div className="mb-1 sm:mb-2 text-start">
                                             <label
                                                 htmlFor="lastName"
                                                 className="inline-block mb-1 font-medium"
@@ -77,7 +77,7 @@ const SignUp = () => {
                                                 name="lastName"
                                             />
                                         </div>
-                                        <div className="mb-1 sm:mb-2">
+                                        <div className="mb-1 sm:mb-2 text-start">
                                             <label
                                                 htmlFor="email"
                                                 className="inline-block mb-1 font-medium"
@@ -98,7 +98,7 @@ const SignUp = () => {
                                                 type="submit"
                                                 className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-purple-400 hover:bg-purple-700 focus:shadow-outline focus:outline-none"
                                             >
-                                                Subscribe
+                                                Sign Up
                                             </button>
                                         </div>
                                         <p className="text-xs text-gray-600 sm:text-sm">

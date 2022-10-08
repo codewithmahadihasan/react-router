@@ -23,7 +23,7 @@ function App() {
         { path: 'sign-up', element: <SignUp></SignUp> },
         {
           path: 'blog',
-          loader: () => fetch('https://jsonplaceholder.typicode.com/users'),
+          loader: () => fetch('publicjson.json'),
           element: <Blogs></Blogs>
         },
         {

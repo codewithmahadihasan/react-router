@@ -1,6 +1,7 @@
 import React from 'react';
 import Lottie from 'lottie-react'
 import Svg from './img2.json'
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -39,19 +40,19 @@ const Home = () => {
                             quae. explicabo.
                         </p>
                         <div className="flex items-center justify-center">
-                            <a
-                                href="/"
+                            <Link
+                                to="/blog"
                                 className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-purple-500 hover:bg-purple-700 focus:shadow-outline focus:outline-none"
                             >
                                 Get started
-                            </a>
-                            <a
-                                href="/"
+                            </Link>
+                            <Link
+                                to="/about"
                                 aria-label=""
                                 className="inline-flex items-center font-semibold text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-700"
                             >
-                                Learn more
-                            </a>
+                                About Us
+                            </Link>
                         </div>
                     </div>
                 </div>

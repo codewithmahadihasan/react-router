@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 // import { NavNavLink } from 'react-router-dom';
 
 
+
 export const Header = () => {
     {
 
@@ -14,25 +15,11 @@ export const Header = () => {
                     <div className="relative flex items-center justify-between">
                         <NavLink
                             to="/"
-                            aria-label="Company"
-                            title="Company"
+                            aria-label="Mahadi Hasan"
+                            title="Mahadi Hasan"
                             className="inline-flex items-center"
-                        >
-                            <svg
-                                className="w-8 text-white"
-                                viewBox="0 0 24 24"
-                                strokeLinejoin="round"
-                                strokeWidth="2"
-                                strokeLinecap="round"
-                                strokeMiterlimit="10"
-                                stroke="currentColor"
-                                fill="none"
-                            >
-                                <rect x="3" y="1" width="7" height="12" />
-                                <rect x="3" y="17" width="7" height="6" />
-                                <rect x="14" y="1" width="7" height="6" />
-                                <rect x="14" y="11" width="7" height="12" />
-                            </svg>
+                        ><img src="https://img.icons8.com/color/48/000000/m-cute.png" />
+
                             <span className="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
                                 Mahadi Hasan
                             </span>
@@ -41,8 +28,8 @@ export const Header = () => {
                             <li>
                                 <NavLink
                                     to="/home"
-                                    aria-label="Our product"
-                                    title="Our product"
+                                    aria-label="Home"
+                                    title="Home"
                                     className={({ isActive }) => {
                                         return isActive ? 'underline text-sky-500  underline-offset-8 font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400' : 'font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400';
 
@@ -55,8 +42,8 @@ export const Header = () => {
                             <li>
                                 <NavLink
                                     to="/blog"
-                                    aria-label="Our product"
-                                    title="Our product"
+                                    aria-label="Blog"
+                                    title="Blog"
                                     className={({ isActive }) => {
                                         return isActive ? 'underline text-sky-500 underline-offset-8 font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400' : 'font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400';
 
@@ -68,8 +55,8 @@ export const Header = () => {
                             <li>
                                 <NavLink
                                     to="/post"
-                                    aria-label="Product pricing"
-                                    title="Product pricing"
+                                    aria-label="Post"
+                                    title="Post"
                                     className={({ isActive }) => {
                                         return isActive ? 'underline text-sky-500 underline-offset-8 font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400' : 'font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400';
 
@@ -133,8 +120,8 @@ export const Header = () => {
                                             <div>
                                                 <NavLink
                                                     to="/"
-                                                    aria-label="Company"
-                                                    title="Company"
+                                                    aria-label="Mahadi Hasan"
+                                                    title="Mahadi Hasan"
                                                     className="inline-flex items-center"
                                                 >
                                                     <svg
@@ -153,7 +140,7 @@ export const Header = () => {
                                                         <rect x="14" y="11" width="7" height="12" />
                                                     </svg>
                                                     <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                                                        Company
+                                                        Mahadi Hasan
                                                     </span>
                                                 </NavLink>
                                             </div>
@@ -178,8 +165,8 @@ export const Header = () => {
                                                 <li>
                                                     <NavLink
                                                         to="/"
-                                                        aria-label="Our product"
-                                                        title="Our product"
+                                                        aria-label="Home"
+                                                        title="Home"
                                                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                                                     >
                                                         Product
@@ -188,8 +175,8 @@ export const Header = () => {
                                                 <li>
                                                     <NavLink
                                                         to="/"
-                                                        aria-label="Our product"
-                                                        title="Our product"
+                                                        aria-label="Home"
+                                                        title="Home"
                                                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                                                     >
                                                         Features
@@ -198,8 +185,8 @@ export const Header = () => {
                                                 <li>
                                                     <NavLink
                                                         to="/pricing"
-                                                        aria-label="Product pricing"
-                                                        title="Product pricing"
+                                                        aria-label="Post"
+                                                        title="Post"
                                                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                                                     >
                                                         Pricing
